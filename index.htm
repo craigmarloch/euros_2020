@@ -13,16 +13,18 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <![if !supportTabStrip]>
 <link id="shLink" href="index_files/sheet001.htm">
 <link id="shLink" href="index_files/sheet002.htm">
+<link id="shLink" href="index_files/sheet003.htm">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=2;
+ var c_lTabs=3;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "Table";
  c_rgszSh[1] = "Predictions";
+ c_rgszSh[2] = "Points";
 
 
 
@@ -306,6 +308,10 @@ function fnSetActiveSheet(iSh)
    <x:ExcelWorksheet>
     <x:Name>Predictions</x:Name>
     <x:WorksheetSource HRef="index_files/sheet002.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Points</x:Name>
+    <x:WorksheetSource HRef="index_files/sheet003.htm"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="index_files/stylesheet.css"/>
