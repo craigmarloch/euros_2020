@@ -13,17 +13,19 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link id="shLink" href="index_files/sheet001.htm">
 <link id="shLink" href="index_files/sheet002.htm">
 <link id="shLink" href="index_files/sheet003.htm">
+<link id="shLink" href="index_files/sheet004.htm">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=3;
+ var c_lTabs=4;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "Table";
  c_rgszSh[1] = "Predictions";
- c_rgszSh[2] = "Points";
+ c_rgszSh[2] = "Goalscorer and Team Selections";
+ c_rgszSh[3] = "Points";
 
 
 
@@ -309,8 +311,12 @@ function fnSetActiveSheet(iSh)
     <x:WorksheetSource HRef="index_files/sheet002.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Points</x:Name>
+    <x:Name>Goalscorer and Team Selections</x:Name>
     <x:WorksheetSource HRef="index_files/sheet003.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Points</x:Name>
+    <x:WorksheetSource HRef="index_files/sheet004.htm"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="index_files/stylesheet.css"/>
